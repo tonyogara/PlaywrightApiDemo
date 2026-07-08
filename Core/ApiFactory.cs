@@ -1,6 +1,6 @@
 using Microsoft.Playwright;
 
-namespace PlaywrightApiDemo.Models.Core
+namespace PlaywrightApiDemo.Core
 {
     public class ApiFactory
     {

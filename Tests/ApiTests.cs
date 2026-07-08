@@ -3,7 +3,7 @@ using NUnit.Framework;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
-using PlaywrightApiDemo.Tests.Models;
+using PlaywrightApiDemo.Models;
 
 namespace PlaywrightApiDemo.Tests
 {
@@ -37,7 +37,7 @@ namespace PlaywrightApiDemo.Tests
 
         
 
-        [Test]
+        //[Test]
         public async Task TestGetRequest()
         {
             

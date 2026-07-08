@@ -1,5 +1,7 @@
 using Microsoft.Playwright;
-using PlaywrightApiDemo.Models.Core;
+using NUnit.Framework;
+
+namespace PlaywrightApiDemo.Core;
 
 public class ApiTestBase
 {
@@ -16,7 +18,7 @@ public class ApiTestBase
 
         _apiFactory = new ApiFactory(_playwright);
 
-        request = await _apiFactory.CreateClient("https://jsonplaceholder.typicode.com/");
+        request = await _apiFactory.CreateClient("https://jsonplaceholder.typicode.com");
 
         
 

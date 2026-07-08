@@ -1,4 +1,6 @@
-namespace PlaywrightApiDemo.Tests.Models
+
+
+namespace PlaywrightApiDemo.Models
 {
     public class Post
     {
