@@ -62,13 +62,14 @@ namespace PlaywrightApiDemo.Tests
 
         }
 
-
+        /*
         [TearDown]
         public async Task Teardown()
         {
             await request.DisposeAsync();
         _playwright.Dispose();
         }
+        */
 
 
     }

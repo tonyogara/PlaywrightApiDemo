@@ -17,6 +17,7 @@ public class PostsClient
 
     public async Task<IAPIResponse> GetPostAsync(int postId)
     {
+        System.Console.WriteLine("eeeee");
         return await _request.GetAsync($"/posts/{postId}");
     }
 
